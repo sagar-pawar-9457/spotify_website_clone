@@ -122,6 +122,7 @@ a{
     padding: 0 1.5rem 0 1.5rem;
 }
 .sticky_Navbar{
+    height: 20px;
     position: sticky;
     top: 0;
     background-color: #121212;
@@ -129,7 +130,7 @@ a{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 0;
+    padding: 0.9rem 0;
     z-index: 1;
     border-top-left-radius: 1rem;
     border-bottom-left-radius:1rem ;
@@ -163,40 +164,92 @@ a{
 }
 h2{
     color: white;
+    font-size: 1rem;
 }
 .card{
-    background-color: #232323;
-    width: 150px;
- 
+   
+    height: 220px;
+    width: 120px;
     border-radius: 0.5rem;
-    padding:1rem ;
-    margin-left: 1.5rem;
+    padding:0.8rem ;
+    margin-left: 1rem;
     margin-top:1rem;
 }
+.card:hover{
+    background-color: #232323;
+}
 .card img{
-    height: 150px;
+    height: 120px;
     width: 100%;
     border-radius: 0.5rem;
 }
 .card_title{
     font-weight: 600;
+    font-size: 0.8rem;
 }
 .card_Info{
-    font-size: 0.80rem;
+    font-size: 0.6rem;
     opacity:0.8 ;
 }
 
 .footer{
-    height: 300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: 40px;
+   margin-top: 1.5rem;
+    
 }
 .line{
-    width: 90%;
-    height: 50%;
+    width: 100%;
     border-top: 1px solid white;
     opacity: 0.4;
+}
+.main_content_footer{
+    width: 100%;
+    margin-top: 4.1rem;
+    opacity: 0.7;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.content_footer_first {
+    width: 20%;
+
+}
+.content_footer_first  span{
+    font-size: 0.8rem;
+    color: white;
+    line-height: 0.5rem;
+    font-weight: 900;
+    
+}
+.content_footer_first p{
+    font-size: 0.7rem;
+    line-height: 0.5rem;
+    color:#c9bfbf;
+    margin-top: 0.5rem;
+}
+.content_footer_first p:hover{
+    text-decoration: underline;
+    color: white;
+}
+.content_footer_first i {
+    align-items: center;
+    color: white;
+    font-size: 1.1rem;
+    border-radius: 50%;
+}
+.content_footer_first i:hover{
+    color: #c9bfbf;
+    background-color: #9f9999;
+}
+.footer_copyright{
+    color:#c9bfbf;
+    margin-top: 0.1rem;
+    display: flex;
+}
+.footer_copyright p{
+    margin-top: 0rem;
+    font-size: 0.8rem;
+    margin-bottom: 2px;
 }
 
 /* responsive navbar  */
@@ -215,6 +268,7 @@ h2{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 0;
 }
 /* music first style  */
 .music_First{
@@ -336,4 +390,36 @@ h2{
     width: 100px;
     background-color: #1bd760;
     margin-right: 0.5rem;
+}
+
+.footer_singup_free{
+    position: fixed;
+    bottom:0.3rem;
+    width: 100vw;
+    height: 60px;
+    border: 10px solid black;
+    background: linear-gradient(114.2deg, rgb(121, 194, 243) 22.6%, rgb(255, 180, 239) 67.7%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+}
+.singup_left span {
+    font-size: 0.8rem;
+    margin-left: 0.5rem;
+    color: white;
+    font-weight: 600;
+}
+.singup_left p {
+    margin-top: 0.1rem;
+    font-size: 0.8rem;
+    margin-left: 0.5rem;
+    color: white;
+}
+.signup_right button{
+    color:black;
+    border: none;
+    margin-right: 2rem;
+    padding: 0.5rem  1.5rem;
+    border-radius: 100px;
 }
