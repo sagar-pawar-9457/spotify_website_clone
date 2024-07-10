@@ -131,6 +131,8 @@ a{
     align-items: center;
     padding: 1rem 0;
     z-index: 1;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius:1rem ;
 }
 .sticky_Navbar_Icons {
    margin-left: 0.75rem;
@@ -165,12 +167,14 @@ h2{
 .card{
     background-color: #232323;
     width: 150px;
+ 
     border-radius: 0.5rem;
     padding:1rem ;
     margin-left: 1.5rem;
-    margin-top:1rem  ;
+    margin-top:1rem;
 }
 .card img{
+    height: 150px;
     width: 100%;
     border-radius: 0.5rem;
 }
@@ -178,7 +182,7 @@ h2{
     font-weight: 600;
 }
 .card_Info{
-    font-size: 0.85rem;
+    font-size: 0.80rem;
     opacity:0.8 ;
 }
 
